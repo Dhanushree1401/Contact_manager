@@ -4,7 +4,7 @@ import cors from 'cors';
 
 // Import contact routes
 import contactRoutes from './routes/contactRoutes.js';
-
+import authRoutes from './routes/authRoutes.js';
 const app = express();
 
 // Middleware to parse JSON and enable CORS
@@ -18,6 +18,6 @@ mongoose.connect('mongodb+srv://contact_manager:Dhanu%401401@cluster0.ffxel.mong
 
 // Mount contact routes
 app.use('/contact', contactRoutes);
-
+app.use('/auth', authRoutes);
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
