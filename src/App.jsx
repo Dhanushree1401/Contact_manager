@@ -5,7 +5,7 @@ import AddContact from './Components/AddContact';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import axios from 'axios';
-import './app.css';
+import './App.css';
 
 function App() {
     const [contacts, setContacts] = useState([]);
