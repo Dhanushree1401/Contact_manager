@@ -1,0 +1,64 @@
+.login-container {
+    display: flex;
+    height: 80vh; /* Full height of the viewport */
+}
+
+/* Image section */
+.image-section {
+    flex: 3; /* Take up 3/4 of the space */
+    background-image: 'url(https://static.vecteezy.com/system/resources/thumbnails/003/127/954/small_2x/abstract-template-blue-background-white-squares-free-vector.jpg)';
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+}
+
+/* Form section */
+.form-section {
+    flex: 1; /* Take up 1/4 of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the form vertically */
+    padding: 20px;
+    position: relative; /* Make sure it's relative for z-index to work */
+    z-index: 10; /* Higher z-index than any overlapping elements */
+    border-radius: 10px; /* Optional: Add rounded corners for aesthetic */
+}
+
+/* Form styles */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Make the form width responsive */
+    font-size: 16px; /* Increase font size for form text */
+}
+
+.login-container input,
+.login-container select {
+    margin: 10px 0;
+    padding: 12px; /* Slightly increased padding for larger input fields */
+    font-size: 18px; /* Set font size for input fields */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none; /* Remove default outline */
+}
+
+.login-container input:focus,
+.login-container select:focus {
+    border-color: #4CAF50; /* Highlight the border on focus */
+}
+
+.login-container button,
+.register-button {
+    margin-top: 10px;
+    padding: 12px; /* Slightly increased padding for larger button */
+    font-size: 18px; /* Set font size for button text */
+    background-color: #4CAF50; /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover,
+.register-button:hover {
+    background-color: #391ad5; /* Darker shade on hover */
+}

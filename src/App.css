@@ -1,0 +1,163 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #391ad5;
+  border: none;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fab:hover {
+   background-color: #391ad5; /* Darker shade on hover */
+  ;
+}
+
+
+
+
+/* Optional: Close button styling */
+.add-contact-close-button {
+  position: absolute; /* Position the close button */
+  top: 10px; /* Distance from the top */
+  right: 15px; /* Distance from the right */
+  font-size: 24px; /* Size of the button */
+  color: #333; /* Color of the button */
+  cursor: pointer; /* Pointer on hover */
+}
+.add-contact-close-button:hover {
+  color: #dc3545; /* Color change on hover */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px; /* Set max-width to keep it contained within the form */
+  margin: 0 auto; /* Center align the container */
+  position: relative;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
+  font-size: 16px;
+}
+
+.search-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0; /* Rounded corners for the right side */
+  background-color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -1px; /* Avoids double border where search-input and search-select meet */
+}
+.contact-form {
+    max-width: 400px; /* Increased width for the form */
+    margin: 20px auto;
+    padding: 30px; /* Increased padding for more spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.contact-form input {
+    width: 80%; /* Adjusted width to fit within the form */
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 14px; /* Increased padding for a larger button */
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745; /* Changed to a professional green */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.add-contact-form {
+    position: relative;
+    padding: 25px;
+    max-width: 600px; /* Set a fixed max-width for consistency */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.button-model {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bg {
+    height: 200px;
+    background-color: #dc3545;
+}
+
+.close-button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #d5231a; /* Darker shade on hover */
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(245, 245, 245);
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.add-contact-form h2 {
+    margin-top: 40px;
+}
+
